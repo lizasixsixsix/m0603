@@ -164,6 +164,7 @@
     <Folder Include="Schema Objects\Database Level Objects\Storage\Full Text Catalogs\" />
     <Folder Include="Schema Objects\Database Level Objects\Storage\Partition Functions\" />
     <Folder Include="Schema Objects\Database Level Objects\Storage\Partition Schemes\" />
+    <Folder Include="Snapshots" />
   </ItemGroup>
   <ItemGroup>
     <BuildContributorArgument Include="OutDir=$(OutDir)" />
@@ -199,6 +200,7 @@
     <None Include="Scripts\Post-Deployment\EmployeeTerritories.sql">
       <SubType>NotInBuild</SubType>
     </None>
+    <None Include="Snapshots\Northwind_1.0.dacpac" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Schema Objects\Schemas\Northwind\Tables\CustomerDemographics.table.sql">
