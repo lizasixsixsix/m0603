@@ -165,6 +165,7 @@
     <Folder Include="Schema Objects\Database Level Objects\Storage\Partition Functions\" />
     <Folder Include="Schema Objects\Database Level Objects\Storage\Partition Schemes\" />
     <Folder Include="Snapshots" />
+    <Folder Include="Scripts\Alter" />
   </ItemGroup>
   <ItemGroup>
     <BuildContributorArgument Include="OutDir=$(OutDir)" />
@@ -201,6 +202,7 @@
       <SubType>NotInBuild</SubType>
     </None>
     <None Include="Snapshots\Northwind_1.0.dacpac" />
+    <None Include="Scripts\Alter\1.0-1.1Script.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Schema Objects\Schemas\Northwind\Tables\CustomerDemographics.table.sql">
@@ -496,5 +498,6 @@
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Scripts\Post-Deployment\Script.PostDeployment.sql" />
+    <None Include="Scripts\Alter\UpdateTo1.1.sql" />
   </ItemGroup>
 </Project>
